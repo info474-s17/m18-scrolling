@@ -1,24 +1,10 @@
-# Module 15: Scrolling!
+# Scrolling
 
-## Overview
 One of the most popular ways of animating transitions in web-visualizations is through scrolling. It's a beautiful way to allow users to dive deeper into a visualization, and there have been some really [incredible](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) [examples](http://letsfreecongress.org/) in recent years (both of those are by [Tony Chu](https://twitter.com/tonyhschu)).
 
 This module introduces two approaches to scrolling. The first is a summary of the pioneering work done by [Jim Vallandingham](http://vallandingham.me/scroller.html), which uses D3 to track position in the page and fire events. The second approach uses Angular to track and fire events, which I believe is a more direct solution (assuming you know -- and like -- Angular). In case it wasn't obvious, these solutions **are not** intended to be used in tandem. The first is awesome if you're not using a framework, and the second great if you're using Angular. Either way, the intuition is the same: determine where you are on the page, and when you get to certain points, fire the appropriate event. It's not terribly complicated, so depending on what you're trying to do, you can also just (sc)roll your own.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
-
-- [Resources](#resources)
-- [Custom Directives](#custom-directives)
-  - [Use case](#use-case)
-  - [Syntax](#syntax)
-- [D3 Chart Directives](#d3-chart-directives)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
-Here are a few resources to get you started scrolling:
+Helpful links:
 
 - [So You Want To Build a Scroller](http://vallandingham.me/scroller.html) _(Jim Vallandingham)_
 - [How to Scroll](https://bost.ocks.org/mike/scroll/) _(Mike Bostock)_
